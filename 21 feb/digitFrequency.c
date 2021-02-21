@@ -16,7 +16,7 @@ int main() {
     }
     
     for(i = 0; i < strlen(str); i++){
-        if((int)str[i] >= 48 && (int)str[i] < 58 ){   /* ascii values of 1 to 9 is 48 to 58*/
+        if((int)str[i] >= 48 && (int)str[i] < 58 ){   /* ascii values of 0 to 9 is 48 to 58*/
             digit[(int)str[i] - 48]++;
         }
     }
